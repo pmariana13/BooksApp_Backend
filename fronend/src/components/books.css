@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  align-content: stretch;
+  padding: 25px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 80px;
+  perspective: 1000px;
+  flex-wrap: wrap;
+
+}
+
+
+.card-body {
+  padding: 2rem 0 !important;
+}
+
+.text {
+  font-size: 13px;
+  text-justify: auto;
+  color: black;
+  padding: 5px;
+}
+
+.card-text {
+  text-transform: initial;
+  text-align: center;
+  padding: 7px;
+  font-size: 13px;
+  text-justify: auto;
+  color: black;
+  margin-bottom: auto;
+  overflow: -moz-hidden-unscrollable;
+
+}
+
+.cardbook {
+  background-color: white;
+  width: 300px;
+  height: 380px;
+  border: 2px solid lightseagreen;
+  border-radius: 6px;
+  overflow: -moz-hidden-unscrollable;
+  flex-wrap: nowrap;
+  max-height: 380px;
+  position: relative;
+
+}
+.cardbook-btn{
+  position: absolute;
+  bottom: 5px;
+  right: 0px;
+}
+
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+  border-radius: 20px 20px 0 0;
+    transform-style: preserve-3d;
+}
+
+.card-img-top:hover {
+  transform: scale(1.8);
+}
+
+.btn {
+
+  border: 2px solid lightseagreen;
+  background: transparent;
+  padding: 2px 2px;
+  color: black;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+
+}

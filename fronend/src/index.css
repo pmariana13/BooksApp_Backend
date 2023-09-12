@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+	box-sizing: border-box;
+
+}
+
+
+.Navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	background-color: lightseagreen;
+	color: aliceblue;
+}
+
+.logo {
+	width: 200px;
+	height: 200px;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+h4 {
+	text-decoration: none;
+	color: #fff;
+	align-items: center;
+	justify-content: center;
+}
+
+nav,
+.user {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.username {
+	color: #000;
+}
+
+.btn-logout {
+	border: 1px solid #fff;
+	background: none;
+	color: #fff;
+	padding: 5px 20px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.btn-logout:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 10px 0;
+	text-align: center;
+}
+.text-h4 {
+
+	color:#000;
+	align-items: center;
+	justify-content: center;
+	padding-top: 20px ;
+}
