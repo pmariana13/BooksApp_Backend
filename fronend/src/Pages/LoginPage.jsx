@@ -19,7 +19,7 @@ export const LoginPage = () => {
 
 
         try {
-			const backendenvia = await axios.post(url+ "/"+"auth/login", {
+			const backendenvia = await axios.post(url+"auth/login", {
 				correo,
 				password,
 			});

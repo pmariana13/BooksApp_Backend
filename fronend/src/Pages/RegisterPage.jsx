@@ -19,7 +19,7 @@ export const RegisterPage = () => {
 		e.preventDefault();
 		//  enviar los datos al backend
 		try {
-			const backendenvia = await axios.post(url+"/"+"usuarios", {
+			const backendenvia = await axios.post(url+"usuarios", {
 				name,
 				lastname,
 				email,
